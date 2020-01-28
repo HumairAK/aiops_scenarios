@@ -1,2 +1,2 @@
 ## AIOPS Katacoda scenarios 
-This repo is the central source of Katacoda scenarios for AIOPS projects. 
+This repo contains a collection of Katacoda scenarios for AIOPS projects. 
