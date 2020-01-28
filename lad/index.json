@@ -1,0 +1,43 @@
+{
+    "title": "Log Anomaly Detection on Openshift 4.2",
+    "icon": "fa-openshift",
+    "description": "",
+    "pathwayTitle": "PAD",
+    "difficulty": "beginner",
+    "time": "60 minutes",
+    "backend": {
+        "imageid": "openshift-4-2"
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboards": [{"name": "Console", "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}],
+        "uilayout": "terminal-iframe"
+    },
+    "details": {
+        "steps": [
+            {
+                "title": "Setup Project",
+                "text": "project.md"
+            },
+            {
+                "title": "Deploy ES",
+                "text": "deploy_es.md"
+            },
+            {
+                "title": "Deploy Demo App",
+                "text": "deploy_demo_app.md"
+            },
+            {
+                "title": "Deploy LAD",
+                "text": "deploy_lad.md"
+            }
+        ],
+        "intro": {
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    }
+}
