@@ -1,0 +1,11 @@
+{
+  "title": "prometheus",
+  "description": "aiops with prometheus tooling ",
+  "courses": [
+    {
+      "course_id": "hello-world",
+      "title": "Hello World Scenario",
+      "description": "Your First Scenario"
+    }
+  ]
+}
