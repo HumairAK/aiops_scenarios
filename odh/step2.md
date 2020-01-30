@@ -9,3 +9,11 @@ Deploy Argo using the custom resource manifest for your environment by entering 
 Wait for Argo to spin up, once ready you can visit argo at the following link: 
 
 `echo http://$(oc get route argo-ui-route | awk 'NR==2{print $2}')`{{execute}}
+
+Try to deploy a hello world workflow: 
+
+`oc create -f https://raw.githubusercontent.com/argoproj/argo/master/examples/hello-world.yaml`{{execute}}
+
+Visit argo again to watch your workflow run: 
+
+`echo http://$(oc get route argo-ui-route | awk 'NR==2{print $2}')`{{execute}}
