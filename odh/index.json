@@ -8,7 +8,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Deploy Custom resource",
+        "title": "Step 2 - Deploy Argo",
         "text": "step2.md",
         "courseData": "setup_cr.sh"
       }
