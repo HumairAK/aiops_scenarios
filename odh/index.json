@@ -1,0 +1,29 @@
+{
+  "title": "ODH Manual Installation",
+
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Run Command",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "description": "",
+  "pathwayTitle": "OpenShift",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "backend": {
+    "imageid": "openshift-4-2"
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Console", "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}],
+    "uilayout": "terminal-iframe"
+  }
+}
