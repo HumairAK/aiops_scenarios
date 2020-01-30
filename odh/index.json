@@ -2,10 +2,18 @@
   "title": "ODH Manual Installation",
 
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - Install manifests",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Deploy Custom resource",
+        "text": "step2.md",
+        "courseData": "setup_cr.sh"
+      }
+
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
