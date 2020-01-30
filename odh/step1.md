@@ -12,7 +12,7 @@ To login to the OpenShift cluster from the _Terminal_ run:
 
 Create your openshift project to work in.
 
-`oc new-project lad`{{execute}}
+`oc new-project odh`{{execute}}
 
 Add the OpenDataHub custom resource definition to OpenShift by entering the following command.
 
